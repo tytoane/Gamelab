@@ -89,7 +89,8 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    ;background-image:url( https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626);
+    flex-wrap: wrap;
+    background-image:url( https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626);
 }
 .textecarte{
     text-align: center;
@@ -99,7 +100,7 @@ align-items: center;
     font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: black;
+  color: white;
   width: 100%;
   }
   
@@ -107,6 +108,7 @@ align-items: center;
     width: 100%;
     height: 100%;
     margin: auto;
+    color: white;
 }
 
 .carte2 {
@@ -117,14 +119,15 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    ;background-image:url( https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/ef88dadca13badf9418b26b15aaa431a.jpg?v=1683014991626);
+    flex-wrap: wrap;
+    background-image:url(https://cdn.glitch.global/34823477-3d93-4a38-aaf6-ceb2b1fd2fa9/games---Silke-Van-Der-Smissen-2.jpg?v=1683014999625);
 }
 
   .type2{
     font-family: "Jersey 10", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: black;
+  color: aliceblue;
   width: 100%;
   text-align: center;
   }
@@ -133,4 +136,30 @@ align-items: center;
     width: 100%;
     height: 100%;
     margin: auto;
+    text-align: center;
+    color: aliceblue;
 }
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #ff364f;
+}
+.textdubas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width:  100%;
+    height: 60px;
+    color: black;
+    text-decoration-line: none;
+}
+
+    
